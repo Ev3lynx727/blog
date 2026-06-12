@@ -2,10 +2,12 @@ title: ev3lynx727
 description: Articles and technical writing
 url: "https://ev3lynx727.github.io"
 baseurl: "/blog"
-permalink: /:title/
+permalink: pretty
 markdown: kramdown
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 exclude:
   - README.md
+  - drafts/
+  - .gitkeep
