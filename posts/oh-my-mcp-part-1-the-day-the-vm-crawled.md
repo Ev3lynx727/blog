@@ -1,5 +1,5 @@
 ---
-title: Oh My MCP PART 1: The Day the VM Crawled
+title: "Oh My MCP PART 1: The Day the VM Crawled"
 description: How 45 MCP server processes, a six-fold increase in SDK dependencies, and one convenience flag transformed a lean development VM into a sluggish mess.
 tags: [mcp, architecture, performance, ai]
 ---
