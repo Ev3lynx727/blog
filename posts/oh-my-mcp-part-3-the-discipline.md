@@ -1,5 +1,5 @@
 ---
-title: Oh My MCP PART 3: The Discipline
+title: "Oh My MCP PART 3: The Discipline"
 description: The migration fixed everything. Then it started drifting back. Governance, security, and the six principles that keep a local-first system clean.
 tags: [mcp, security, devops, bestpractices]
 ---
