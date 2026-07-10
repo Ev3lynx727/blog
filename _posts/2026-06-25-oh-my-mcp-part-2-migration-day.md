@@ -1,6 +1,8 @@
 ---
+layout: post
 title: "Oh My MCP PART 2: Migration Day"
 description: How we replaced 12 wrapper processes, 510MB of RAM overhead, and a silent supply chain drift with local installs, pinned versions, and one shared node_modules.
+date: 2026-06-25
 tags: [mcp, devops, architecture, performance]
 ---
 I opened the config file. Eleven entries. Six running. Zero pinned versions.

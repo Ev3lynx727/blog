@@ -1,6 +1,8 @@
 ---
+layout: post
 title: "Oh My MCP PART 3: The Discipline"
 description: The migration fixed everything. Then it started drifting back. Governance, security, and the six principles that keep a local-first system clean.
+date: 2026-06-28
 tags: [mcp, security, devops, bestpractices]
 ---
 The migration was a success. Every server was pinned, local, and running without wrappers. The VM breathed again.
