@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8' />
+<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+<title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+{% feed_meta %}
+{% seo %}
+<link rel='preconnect' href='https://fonts.googleapis.com' />
+<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+<link href='https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap' rel='stylesheet' />
+<link rel='stylesheet' href='{{ "/assets/css/style.css" | relative_url }}' />
+</head>
+<body>
+<header id='header'>
+<span class='label'>SYSTEM_STATUS: ACTIVE</span>
+<span class='label'>BLOG: {{ site.title }}</span>
+</header>
+<div id='main'>
+<nav id='nav'>
+<div class='nav-header'>POSTS</div>
+{% for post in site.posts %}
+<a href='{{ post.url | relative_url }}' class='nav-item{% if page.url == post.url %} active{% endif %}'>{{ post.title }}</a>
+{% endfor %}
+<div class='nav-header'>INFO</div>
+<a href='{{ "/" | relative_url }}' class='nav-item{% if page.url == "/" %} active{% endif %}'>About</a>
+</nav>
+<section id='content'>
+<article class='card'>
+{{ content }}
+</article>
+</section>
+</div>
+</body>
+</html>
